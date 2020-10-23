@@ -2,8 +2,8 @@
 import sys
 
 week = [ 'SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT' ]
-#f = sys.stdin
-f = open('data.txt', 'r')
+f = sys.stdin
+#f = open('data.txt', 'r')
 M, D = map(int, f.readline().split())
 
 day = D
